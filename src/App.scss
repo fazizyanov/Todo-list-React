@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(239, 239, 239);
+}
+
+.App {
+  text-align: center;
+  width: 300px;
+}
+
+.header-btn {
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+
+.header-btn:active {
+  transform: translateY(5px);
+}
+
+.App-tasks {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.edit, .delete, .done {
+  border: none;
+}
+
+.deleteImg, .editImg, .doneImg {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
